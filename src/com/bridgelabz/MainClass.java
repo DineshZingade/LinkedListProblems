@@ -1,15 +1,18 @@
 package com.bridgelabz;
 
 public class MainClass {
-	
 	public static void main(String[] args) {
 		LinkedList list = new LinkedList();
-		list.head = new Node(56);
-		Node second = new Node(30);
-		Node third = new Node(70);
+		// System.out.println("----------------UC1----------------");
+		// list.add(56);
+		// list.add(30);
+		// list.add(70);
+		// list.printList();
 
-		list.head.next = second;
-		second.next = third;
+		System.out.println("Linked List created Added");
+		list.push(70);
+		list.push(30);
+		list.push(56);
 		list.printList();
 
 	}
